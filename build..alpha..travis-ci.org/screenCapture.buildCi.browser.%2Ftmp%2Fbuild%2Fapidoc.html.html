@@ -63,15 +63,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.homebridge-vsx.toString">
-            function <span class="apidocSignatureSpan">homebridge-vsx.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -94,36 +85,6 @@
   homebridge.registerAccessory("homebridge-vsx", "VSX", VSX);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.homebridge-vsx.toString" id="apidoc.element.homebridge-vsx.toString">
-        function <span class="apidocSignatureSpan">homebridge-vsx.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-  client.write('?P\r\n');
-
-});
-
-  client.on('data', function(data) {
-
-    console.log('DATA: ' + data);
-    var str = data.<span class="apidocCodeKeywordSpan">toString</span>();
-
-    if (str.includes("PWR1")) {
-      console.log("AUS");
-      var on = false;
-      client.destroy();
-      callback(null,on);
-...</pre></li>
     </ul>
 
 
