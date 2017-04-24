@@ -1,4 +1,7 @@
-# api documentation for  [homebridge-vsx (v1.0.3)](https://github.com/TG908/homebridge-vsx#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-homebridge-vsx.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-homebridge-vsx) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-homebridge-vsx.svg)](https://travis-ci.org/npmdoc/node-npmdoc-homebridge-vsx)
+# npmdoc-homebridge-vsx
+
+#### api documentation for  [homebridge-vsx (v1.0.3)](https://github.com/TG908/homebridge-vsx#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-homebridge-vsx.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-homebridge-vsx) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-homebridge-vsx.svg)](https://travis-ci.org/npmdoc/node-npmdoc-homebridge-vsx)
+
 #### Pioneer-VSX plugin for homebridge: https://github.com/nfarina/homebridge
 
 [![NPM](https://nodei.co/npm/homebridge-vsx.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/homebridge-vsx)
@@ -57,7 +60,8 @@
         "url": "git://github.com/TG908/homebridge-vsx.git"
     },
     "scripts": {},
-    "version": "1.0.3"
+    "version": "1.0.3",
+    "bin": {}
 }
 ```
 
